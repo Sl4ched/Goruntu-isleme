@@ -15,7 +15,7 @@ for i in range(h):  # This is for found max color rate
         if image[i, j] > maxValue:
             maxValue = image[i, j]
 
-for i in range(h):  # This is for
+for i in range(h):  # This is for inverting
     for j in range(w):
         image[i, j] = maxValue - image[i, j]
 
